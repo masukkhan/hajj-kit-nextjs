@@ -1,16 +1,11 @@
 import { useState, useEffect } from "react";
-import { Star, CheckCircle2, Package, ChevronDown } from "lucide-react";
-
-import kaabaImg from "@/assets/kaaba.jpg";
-import nabawiImg from "@/assets/masjid-nabawi.jpg";
-import arafatImg from "@/assets/mount-arafat.jpg";
-import minaImg from "@/assets/mina-tents.jpg";
+import { Star, CheckCircle2, ChevronDown } from "lucide-react";
 
 const SLIDES = [
-  { src: kaabaImg, label: "The Holy Kaaba — Mecca" },
-  { src: nabawiImg, label: "Masjid an-Nabawi — Medina" },
-  { src: arafatImg, label: "Mount Arafat" },
-  { src: minaImg, label: "Mina — Tent City" },
+  { src: "/kaaba.jpg", label: "The Holy Kaaba — Mecca" },
+  { src: "/masjid-nabawi.jpg", label: "Masjid an-Nabawi — Medina" },
+  { src: "/mount-arafat.jpg", label: "Mount Arafat" },
+  { src: "/mina-tents.jpg", label: "Mina — Tent City" },
 ];
 
 const HeroSection = () => {
